@@ -1,2 +1,2 @@
 # UE4_Example_Plugin
-Basic Plugin, which prints all static meshes names and locations to the screen
+Basic Plugin, which prints all static mesh names and locations to the screen
