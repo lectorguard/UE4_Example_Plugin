@@ -25,7 +25,8 @@ public class Test_Plugin : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				//Last two added for actor extension menu
+				"Core", "Slate", "LevelEditor", 
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -37,7 +38,7 @@ public class Test_Plugin : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore",
+				"SlateCore"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
